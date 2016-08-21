@@ -112,9 +112,9 @@ body{
 }
 .header_low_content ul::before{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    content: url('1e05bc80-4295-43be-b2eb-9d728cb1e120.jpg');
+    top: 5px;
+    left: 5px;
+    content: url('IMG_0122_small.png');
 }
 #link_content{
     position: relative;
@@ -183,6 +183,9 @@ border-bottom: solid #222 1px;
     width: 100%;
     padding-bottom: 50px;
     margin-top: 33px;
+}
+#cont{
+    text-align: left;
 }
 
 .sec_title{
@@ -311,27 +314,32 @@ a:visited{
 
 .container{
     padding-top: 100px;
-    font-size: 20pt;
+    font-size: 18pt;
     
 }
 .container {
     list-style-position: inside;
 }
 .imagebullets{
+    padding-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+    display: block;
     width: 100%;
     height: 250px;
 }
 .bullet1{
+    padding-left: 100px;
     margin:0;
     float: left;
-    width: 200px;
+    width: 250px;
    
 }
 .bullet2{
+    padding-right: 100px;
     margin:0;
     float: right;
-    width: 200px;
+    width: 250px;
 }
 .container .linklist{
     display: block;
@@ -367,6 +375,32 @@ footer{
  height: 200px;
  background-color: #222;
  color: whitesmoke;
+}
+@media only screen and (max-width: 820px){
+    .container{
+    
+    font-size: 14pt;
+    
+}
+    .imagebullets{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.bullet1{
+    padding-left: 10px;
+    
+    width: 200px;
+   
+}
+.bullet2{
+    padding-right: 10px;
+    
+    width: 200px;
+}
 }
 @media only screen and (max-width: 768px) and (min-width: 425px){
    .header_sup{
@@ -414,9 +448,9 @@ footer{
 }
 .header_low_content ul::before{
     position: absolute;
-    top: 0px;
-    left: 41.5%;
-    content: url('1e05bc80-4295-43be-b2eb-9d728cb1e120.jpg');
+    top: 10px;
+    left: 45%;
+    content: url('IMG_0122_small.png');
 }
 .separatore{
     position: relative;
@@ -435,6 +469,25 @@ footer{
 #chis .container{
     padding-left: 10px;
     padding-right: 10px;
+}
+}
+@media only screen and (max-width: 570px){
+    .container{
+        font-size: 10pt;
+    }
+    .bullet1{
+    padding-left: 5px;
+    
+    width: 100px;
+   
+}
+.bullet2{
+    padding-right: 5px;
+    
+    width: 100px;
+}
+    .container .linklist{
+    font-size: 18pt;
 }
 }
 @media only screen and (max-width: 425px){
@@ -485,7 +538,7 @@ footer{
     position: absolute;
     top: 0px;
     left: 35%;
-    content: url('1e05bc80-4295-43be-b2eb-9d728cb1e120.jpg');
+    content: url('IMG_0122_small.png');
 }
 .separatore{
     position: relative;
@@ -501,11 +554,22 @@ footer{
         margin: 0px;
         margin-top: 20px;
     }
+    .bullet1{
+    padding-left: 5px;
+    
+    width: 75px;
+   
+}
+.bullet2{
+    padding-right: 5px;
+    
+    width: 75px;
+}
     #cont .container{
     text-align: left;
     
 }
 .container .linklist{
-    font-size: 15pt;
+    font-size: 12pt;
 }
 }
