@@ -24,3 +24,4 @@ function photoOver(event , s, d){
     $(".close").css("display", "block");
 }
 }
+ 
