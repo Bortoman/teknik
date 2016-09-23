@@ -240,6 +240,10 @@ border-bottom: solid #222 1px;
     
     /*z-index: 20;*/
 }
+.image{
+    background-color: white;
+    border: solid #222 3px;
+}
 .prodotto p{
     padding-left: 2.5px;
     color: white;
@@ -330,7 +334,8 @@ a:visited{
     height:36px;
 }
 .descrizione{
-    float: left;
+    /*float: left;*/
+    text-align: center;
     
 }
 .link{
@@ -505,7 +510,7 @@ footer{
     display: block;
     left: -2%;
     padding: 20px;
-    text-transform: uppercase;
+    
     text-decoration: none;
     font-size: 14pt;
     font-weight: bold;
@@ -577,6 +582,7 @@ footer{
    top: -16px;
   
 }
+
 .header_sup_content li{
     margin: -2.5px;
     display: inline-block;
@@ -627,6 +633,9 @@ footer{
     background-color: whitesmoke;
     
 }
+#prod, li.prodlink{
+    display: none;
+}
 }
 @media only screen and (max-width: 375px){
     
@@ -646,10 +655,10 @@ footer{
     body{
         font-size: 9pt;
     }
-    .prodotto{
+    /*.prodotto{
         margin: 0px;
         margin-top: 20px;
-    }
+    }*/
     .circle{
     top: 0;
     width:150px;
